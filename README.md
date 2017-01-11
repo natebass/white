@@ -1,2 +1,2 @@
-# white
-A white vim color scheme
+# White
+A white color scheme for vim.
