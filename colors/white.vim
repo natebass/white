@@ -88,13 +88,15 @@ endif
 " hi LineNr ctermfg=black
 " hi CursorLineNr ctermfg=black
 
+" Hide match parenthesis
+hi MatchParen guibg=white
 " " }}}
-" " JavaScript {{{
-" hi jsonNoise ctermfg=black
-" hi jsonBraces ctermfg=black
-" hi jsonKeywordMatch ctermfg=black
-" hi javaScriptBraces ctermfg=black
-" hi javaScriptParens ctermfg=black
+" JSON {{{
+hi jsonNoise guifg=white
+hi jsonBraces guifg=white
+hi jsonKeywordMatch guifg=white
+hi javaScriptBraces guifg=white
+hi javaScriptParens guifg=white
 " " }}}
 " " Java {{{
 " syn keyword javaExternal native package syn region foldImports start=/\(^\s*\n^import\)\@<= .\+;/ end=+^\s*$+ transparent fold keepend 
